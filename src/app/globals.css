@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contenedor-main {
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #020001,
+    #040104,
+    #040207,
+    #03030a,
+    #060815,
+    #070d1d,
+    #031225,
+    #001836,
+    #001d47,
+    #002158,
+    #002469
+  );
+  background-repeat: no-repeat;
+  cursor: pointer none !important;
+}
+
+.gradient-background {
+  background: linear-gradient(180deg, #ffffff, #1f78ff);
+}
